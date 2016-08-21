@@ -21,10 +21,8 @@
         };
 
   function activate(node) {
-    var event = new CustomEvent("ActivateSocialFeature");
-
     node.setAttribute("data-service", JSON.stringify(data));
-    node.dispatchEvent(event);
+    node.dispatchEvent(new CustomEvent("ActivateSocialFeature"));
   }
 
   forceHttps();
