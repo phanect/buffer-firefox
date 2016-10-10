@@ -1,0 +1,20 @@
+{
+  "name": "buffer-firefox",
+  "version": "2016.8.21",
+  "description": "Firefox share service for Buffer",
+  "main": "buffer_firefox.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phanect/buffer-firefox.git"
+  },
+  "author": "Jumpei Ogawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phanect/buffer-firefox/issues"
+  },
+  "homepage": "https://github.com/phanect/buffer-firefox#readme",
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-growaspeople": "latest"
+  }
+}
